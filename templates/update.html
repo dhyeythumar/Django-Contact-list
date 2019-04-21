@@ -18,7 +18,7 @@ You don't have access to this page!!
     <hr />
 </div>
 <div class="container w-25 card p-4 mt-4">
-    <form action="{% url %}" method="POST" enctype="multipart/form-date">
+    <form action="" method="POST" enctype="multipart/form-date">
     {% csrf_token %}
     {{form | crispy}}
     <input type="submit" value="Update" class=" w-100 text-white text-center my-2 btn btn-info">
