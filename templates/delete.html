@@ -21,8 +21,8 @@ You don't have access to this page!!
 <div class="container w-25 card p-4 mt-4">
     <form action="" method="POST" enctype="multipart/form-date">
     {% csrf_token %}
-    {{form | crispy}}
-    <input type="submit" value="Delete" class=" w-100 text-white text-center my-2 btn btn-danger">
+    {{form|crispy}}
+    <input type="submit" value="Delete" class="w-100 text-white text-center my-2 btn btn-danger">
     </form>
 </div>
 {% else %}

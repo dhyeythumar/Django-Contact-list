@@ -14,7 +14,7 @@ class Contact(models.Model):
         ('male', 'Male'),
         ('female', 'Female')
     ))
-    image = models.ImageField(upload_to='image/', blank=True)
+    image = models.ImageField(upload_to='images/', blank=True)
     date_added = models.DateTimeField(default=datetime.now)
 
     def __str__(self):
