@@ -15,7 +15,7 @@ Pillow>=6.2.0
 pycodestyle==2.5.0
 pyflakes==2.1.1
 pytz==2019.1
-PyYAML==5.1
+PyYAML==5.4
 sqlparse==0.3.0
 tablib==0.13.0
 xlrd==1.2.0
